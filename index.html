@@ -67,76 +67,77 @@
     <header class="">
 
         <!-- navber section start -->
-       
+
 
         <nav class="bg-base-100 py-4 ">
             <div class=" w-11/12 lg:w-10/12 mx-auto flex items-center justify-between">
-              <!-- Logo -->
-              <div class="flex space-x-2 cursor-pointer">
+                <!-- Logo -->
+                <div class="flex space-x-2 cursor-pointer">
 
-                <!-- cricel btn -->
-                <div class="flex items-center justify-center ">
-                    <div
-                        class="w-[35px] h-[35px] bg-primary_color rounded-full flex items-center justify-center">
-                        <span class="text-black font-bold text-lg transform -rotate-45"><i
-                                class="fa-solid fa-arrow-right"></i></span>
+                    <!-- cricel btn -->
+                    <div class="flex items-center justify-center ">
+                        <div class="w-[35px] h-[35px] bg-primary_color rounded-full flex items-center justify-center">
+                            <span class="text-black font-bold text-lg transform -rotate-45"><i
+                                    class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <a class="text-black font-extrabold text-3xl md:text-4xl" href="#"> Rinterio</a>
+                </div>
+
+                <!-- Navbar Links (hidden on small screens) -->
+
+                <div class=" hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-6 space-x-4 font-semibold text-dark4_subtitle">
+                        <li class="text-dark2_subtitle font-bold "><a>Home</a></li>
+                        <li><a>Service </a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us </a></li>
+                    </ul>
+                </div>
+
+
+                <div class="hidden lg:block space-x-6 ">
+                    <div class="flex space-x-4">
+                        <button class="btn btn-ghost btn-circle shadow">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+
+                        <div class="btn btn-ghost btn-circle shadow">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+
+                        <div>
+                            <a
+                                class="btn  bg-primary_color hover:bg-secondary_color rounded-3xl font-bold text-sm md:text-xl hidden md:flex   text-black ">Book
+                                Consult<i class="fa-solid fa-circle-arrow-up transform rotate-45"></i></a>
+                        </div>
                     </div>
                 </div>
 
-                <a class="text-black font-extrabold text-3xl md:text-4xl" href="#"> Rinterio</a>
-            </div>
-          
-              <!-- Navbar Links (hidden on small screens) -->
-              
-              <div class=" hidden lg:flex ">
-                <ul class="menu menu-horizontal px-6 space-x-4 font-semibold text-dark4_subtitle">
-                    <li class="text-dark2_subtitle font-bold "><a>Home</a></li>
-                    <li><a>Service </a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us </a></li>
-                </ul>
-            </div>
 
 
-              <div class="hidden lg:block space-x-6 ">
-                <div class="flex space-x-4">
-                    <button class="btn btn-ghost btn-circle shadow">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                <!-- Hamburger Menu (visible on small screens) -->
+                <div class="lg:hidden dropdown">
+                    <button id="hamburger-button" class="text-black focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
-    
-                    <div class="btn btn-ghost btn-circle shadow">
-    
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </div>
-    
-                    <div>
-                        <a
-                            class="btn  bg-primary_color hover:bg-secondary_color rounded-3xl font-bold text-sm md:text-xl hidden md:flex   text-black ">Book
-                            Consult<i class="fa-solid fa-circle-arrow-up transform rotate-45"></i></a>
-                    </div>
-                </div>
-            </div>
 
-            
-          
-              <!-- Hamburger Menu (visible on small screens) -->
-              <div class="lg:hidden dropdown">
-                <button id="hamburger-button" class="text-black focus:outline-none">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                  </svg>
-                </button>
-                
-                <!-- drop downbox -->
+                    <!-- drop downbox -->
                     <ul tabindex="0"
                         class="text-center menu menu-sm dropdown-content  bg-base-100  origin-top-left right-0 rounded-box z-[1] mt-3 w-36 p-2 shadow">
                         <li><a>Home </a></li>
@@ -147,11 +148,11 @@
                     </ul>
 
                 </div>
-              
-            
-          
-           
-          </nav>
+
+
+
+
+        </nav>
 
         <!-- banner section start -->
         <section class="mt-10 ">
@@ -193,13 +194,13 @@
     </header>
 
     <!-- main section start -->
-    <main class=" mt-7 md:mt-24 bg-base-200 w-full  mx-auto ">
+    <main class=" mt-7 md:mt-24 bg-base-200   mx-auto ">
 
         <!--  About Us section start-->
         <section class="  w-11/12  lg:w-10/12 mx-auto ">
 
             <div
-                class=" hidden lg:flex absolute left-10 ml-16 w-28 h-20  border-dashed border-2 border-gray-400 flex items-center justify-center">
+                class=" hidden lg:flex absolute left-10 ml-16 w-28 h-20  border-dashed border-2 border-gray-400  items-center justify-center">
                 <img class="w-full" src="./assets/Vector.png" alt="">
             </div>
 
@@ -327,15 +328,124 @@
         </section>
 
         <!-- explore work section start  -->
-        <section>
+        <section class="bg-white  ">
+            <div class="w-11/12  lg:w-10/12 mx-auto mt-6 md:mt-15   py-4 md:py-10 lg:pt-16">
 
+                <!-- explore text start -->
+                <div class=" space-y-6">
+                    <div
+                        class=" mx-auto w-10/12 md:w-6/12  xl:w-3/12 2xl:w-2/12 py-2  shadow-white bg-secondary_color rounded-3xl text-center">
+                        <div class="flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p class="font-bold leading-5">Explore our Latest works</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h1 class="text-3xl md:text-4xl font-black leading-[55px] text-center ">Our Latest Portfolio
+                        </h1>
+                        <p class="font-semibold leading-6 text-dark2_subtitle text-center ">The barn house captivates
+                            with
+                            its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek
+                            metal
+                            accents.</p>
+                    </div>
+                </div>
+
+
+                <!-- grid images start -->
+                <div class=" py-12 grid  grid-cols-12  gap-6">
+                    
+                    <!-- card 1 -->
+                    <div class="order-1 p-5 shadow border rounded-xl col-span-12  lg:col-span-8  flex flex-col md:flex-row  gap-8  ">
+
+                        <div class="w-full lg:w-2/5 ">
+                            <img class="w-full" src="./assets/img1.png" alt="">
+                        </div>
+
+                        <div class="w-full lg:w-3/5 flex flex-col justify-between ">
+                            <h3 class="card-title text-left font-extrabold text-2xl text-dark2_subtitle leading-7 mt-1">Commercial</h3>
+                            <p class="font-medium text-sm lg:text-base leading-7 text-dark4_subtitle">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+
+                            <div>
+                                <button class="flex">
+                                    <a
+                                        class="flex gap-2 items-center   rounded-3xl font-bold  text-xl     text-black  ">View
+                                        Details
+                                        <div class="flex items-center justify-center ">
+                                            <div
+                                                class="w-[35px] h-[35px] bg-primary_color hover:bg-lime-300 rounded-full flex items-center justify-center">
+                                                <span class="text-black font-bold text-lg transform -rotate-45"><i
+                                                        class="fa-solid fa-arrow-right"></i></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class=" order-2 p-5 shadow border rounded-xl col-span-12 md:col-span-6 lg:col-span-4">
+                        <div class=" w-12/12">
+                            <img class=" w-full   " src="./assets/img2.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="order-5 lg:order-3 p-5 shadow border rounded-xl col-span-12 md:col-span-6 lg:col-span-3">
+                        <img class=" w-full " src="./assets/img3.png" alt="">
+                    </div>
+
+                    <!-- card 4 -->
+                    <div class=" order-4 flex flex-col md:flex-row  p-5 shadow gap-6 border rounded-xl col-span-12 lg:col-span-6">
+                        <div class="flex-1">
+                            <img class="w-full" src="./assets/img4.png" alt="">
+
+                        </div>
+                        <div class="flex-1 flex flex-col justify-between ">
+                            <h3 class="card-title text-left font-extrabold text-2xl text-dark2_subtitle leading-7 mt-1">Commercial</h3>
+                            <p class="font-medium text-sm lg:text-base leading-7 text-dark4_subtitle">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+
+                            <div>
+                                <button class="flex">
+                                    <a
+                                        class="flex gap-2 items-center   rounded-3xl font-bold  text-xl     text-black  ">View
+                                        Details
+                                        <div class="flex items-center justify-center ">
+                                            <div
+                                                class="w-[35px] h-[35px] bg-primary_color hover:bg-lime-300 rounded-full flex items-center justify-center">
+                                                <span class="text-black font-bold text-lg transform -rotate-45"><i
+                                                        class="fa-solid fa-arrow-right"></i></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="  order-3 lg:order-5  p-5 shadow border rounded-xl col-span-12 md:col-span-6 lg:col-span-3">
+                        <img class="w-full " src="./assets/img5.png" alt="">
+                    </div>
+
+
+                </div>
+
+            </div>
         </section>
 
     </main>
 
     <!-- footer section start -->
     <footer>
-          
+        
+        
     </footer>
 
 </body>
