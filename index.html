@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" data-theme="light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
 
@@ -129,7 +129,7 @@
 
                 <!-- Hamburger Menu (visible on small screens) -->
                 <div class="lg:hidden dropdown">
-                    <button id="hamburger-button" class="text-black focus:outline-none">
+                    <button id="hamburger-button" class="text-black focus:outline-none border rounded-full p-2">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -155,7 +155,7 @@
         </nav>
 
         <!-- banner section start -->
-        <section class="mt-10 w-10/12 mx-auto">
+        <section class="mt-10 w-11/12 lg:w-10/12 mx-auto">
             <div class=" bg-base-100  ">
                 <div class="text-center  mx-auto   p-0 ">
                     <div class="w-full  ">
@@ -207,7 +207,7 @@
             <div class="flex flex-col md:flex-row justify-between py-6 md:py-16">
 
                 <!-- text site -->
-                <div class=" h-[545px] md:w-1/2 space-y-5 mt-5">
+                <div class=" md:w-1/2 space-y-5 mt-5">
 
                     <div class=" mx-auto lg:ml-0 w-5/12 xl:w-3/12 py-2  shadow-white bg-white rounded-3xl text-center">
                         <div class="flex items-center justify-center gap-2">
@@ -217,7 +217,7 @@
                     </div>
 
                     <div class="space-y-6 ">
-                        <h1 class="text-3xl md:text-4xl font-black leading-10 text-center md:text-left ">We design
+                        <h1 class="text-2xl md:text-4xl font-black leading-10 text-center md:text-left ">We design
                             thoughtful,<br> liveable spaces</h1>
                         <p class="font-semibold leading-6 text-dark2_subtitle text-center md:text-left">The barn house
                             captivates with its blend of rustic charm and
@@ -255,16 +255,106 @@
                 </div>
 
                 <!-- image site -->
-                <div class=" md:w-1/2 mt-6  ">
-                    <img class="w-full  lg:w-12/12 xl:w-9/12 mx-auto " src="./assets/Rectangle.png" alt="">
+                <div class=" md:w-1/2 mt-6 flex  items-center ">
+                    <img class="w-full  lg:w-12/12 xl:w-9/12 mx-auto mr-0" src="./assets/Rectangle.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- unique section start -->
-         <section>
-            
-         </section>
+        <section class="bg-white w-11/12 lg:w-10/12 mx-auto rounded-3xl border shadow">
+            <div class="py-8 md:py-28 space-y-6">
+                <!-- text  -->
+
+                <div class=" space-y-6">
+                    <div
+                        class=" mx-auto w-10/12 md:w-3/12  xl:w-2/12 2xl:w-2/12 py-2  shadow-white bg-secondary_color rounded-3xl text-center">
+                        <div class="flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p class="font-bold leading-5">Our team</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h1 class="text-3xl md:text-4xl font-black leading-[30px] text-center ">Meet the team <i
+                                class="fa-solid fa-arrow-right"></i>
+                        </h1>
+
+                    </div>
+                </div>
+
+
+                <!-- img -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10 space-y-6 md:space-y-0 ">
+
+                    <!-- men 1 -->
+                    <div class=" bg-white w-full space-y-6 ">
+
+                        <div class="avatar flex justify-center ">
+                            <div class="w-60  rounded-full border-red-700-3  hover:[scale:1.05] duration-300 ease-in-out">
+                                <img class=""
+                                    src="https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=" />
+                            </div>
+                        </div>
+                        <div class=" items-center text-center">
+                            <h2 class="text-xl md:text-2xl font-bold leading-10">Steve
+                                Ambul</h2>
+                            <p class="text-lg md:text-xl font-semibold text-yellow-600">Director</p>
+                        </div>
+                    </div>
+
+                    <!-- men 2 -->
+                    <div class=" bg-white w-full space-y-6">
+
+                        <div class="avatar flex justify-center ">
+                            <div class="w-60 rounded-full border-red-700-3 hover:[scale:1.05] duration-300 ease-in-out">
+                                <img
+                                    src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg" />
+                            </div>
+                        </div>
+                        <div class=" items-center text-center">
+                            <h2 class="text-xl md:text-2xl  font-bold leading-10">Andrew
+                                Levy</h2>
+                            <p class="text-lg md:text-xl font-semibold text-yellow-600">Manager</p>
+                        </div>
+                    </div>
+
+                    <!-- men 3 -->
+                    <div class=" bg-white w-full space-y-6">
+
+                        <div class="avatar flex justify-center ">
+                            <div class="w-60 rounded-full border-red-700-3 hover:[scale:1.05] duration-300 ease-in-out">
+                                <img
+                                    src="https://st4.depositphotos.com/13193658/25036/i/450/depositphotos_250363326-stock-photo-smiling-attractive-woman-white-sweater.jpg" />
+                            </div>
+                        </div>
+                        <div class=" items-center text-center">
+                            <h2 class="text-xl md:text-2xl  font-bold leading-10">Alaire
+                                Jones</h2>
+                            <p class="text-lg md:text-xl font-semibold text-yellow-600">Supervisor </p>
+                        </div>
+                    </div>
+
+                    <!-- men 4 -->
+                    <div class=" bg-white w-full space-y-6">
+
+                        <div class="avatar flex justify-center ">
+                            <div class="w-60 rounded-full border-red-700-3 hover:[scale:1.05] duration-300 ease-in-out">
+                                <img
+                                    src="https://img.freepik.com/free-photo/man-isolated-showing-emotions-end-gestures_1303-30095.jpg" />
+                            </div>
+                        </div>
+                        <div class=" items-center text-center">
+                            <h2 class="text-xl md:text-2xl  font-bold leading-10">Mike
+                                Skeehan</h2>
+                            <p class="text-lg md:text-xl  font-semibold text-yellow-600">Coordinator</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
         <!-- work process section start  -->
         <section class="w-11/12  lg:w-10/12 mx-auto mt-6 md:mt-15   py-4 md:py-10 lg:pt-16">
@@ -286,8 +376,10 @@
             </div>
 
             <!-- work card start  -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-9 py-8 md:py-12 ">
-                <div class="card bg-work_concept w-full md:w-72 h-56 shadow-xl ">
+            <div
+                class="w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-items-center space-y-5 lg:space-y-0 gap-0 2xl:gap-36 py-8 md:py-12 ">
+
+                <div class="card bg-work_concept w-full md:w-72 h-56 shadow-xl hover:[scale:1.05] duration-300 ease-in-out">
                     <div class="w-10/12 mx-auto pt-6">
                         <img src="./assets/concept.png" alt="">
                     </div>
@@ -298,7 +390,7 @@
 
                     </div>
                 </div>
-                <div class="card bg-work_design w-full md:w-72 h-56 shadow-xl ">
+                <div class="card bg-work_design w-full md:w-72 h-56 shadow-xl hover:[scale:1.05] duration-300 ease-in-out">
                     <div class="w-10/12 mx-auto pt-6">
                         <img src="./assets/flow-chart.png" alt="">
                     </div>
@@ -309,7 +401,7 @@
 
                     </div>
                 </div>
-                <div class="card bg-work_Supervision w-full md:w-72 h-56 shadow-xl ">
+                <div class="card bg-work_Supervision w-full md:w-72 h-56 shadow-xl hover:[scale:1.05] duration-300 ease-in-out">
                     <div class="w-10/12 mx-auto pt-6">
                         <img src="./assets/vision.png" alt="">
                     </div>
@@ -320,7 +412,7 @@
 
                     </div>
                 </div>
-                <div class="card bg-work_budget w-full md:w-72 h-56 shadow-xl ">
+                <div class="card bg-work_budget w-full md:w-72 h-56 shadow-xl hover:[scale:1.05] duration-300 ease-in-out">
                     <div class="w-10/12 mx-auto pt-6">
                         <img src="./assets/budget-planning.png" alt="">
                     </div>
@@ -379,7 +471,7 @@
                                 blend of rustic charm and modern .</p>
 
                             <div>
-                                <button class="flex">
+                                <button class="flex hover:[scale:1.05] duration-300 ease-in-out">
                                     <a
                                         class="flex gap-2 items-center   rounded-3xl font-bold  text-xl     text-black  ">View
                                         Details
@@ -426,7 +518,7 @@
                                 blend of rustic charm and modern .</p>
 
                             <div>
-                                <button class="flex">
+                                <button class="flex hover:[scale:1.05] duration-300 ease-in-out">
                                     <a
                                         class="flex gap-2 items-center   rounded-3xl font-bold  text-xl     text-black  ">View
                                         Details
@@ -558,7 +650,8 @@
                 </div>
 
                 <div class="pt-6 ">
-                    <ul class="space-y-5 flex flex-col md:flex-row   justify-between items-center md:items-end text-[#E9E9E9] cursor-pointer">
+                    <ul
+                        class="space-y-5 flex flex-col md:flex-row   justify-between items-center md:items-end text-[#E9E9E9] cursor-pointer">
 
                         <li>Home</li>
                         <li>Service</li>
@@ -577,8 +670,6 @@
 
 
                 </div>
-
-               
 
             </div>
         </div>
